@@ -1,0 +1,9 @@
+ze\citychurch\web\MessageServlet.class
+ze\citychurch\messaging\NotificationListener.class
+com\mycompany\citychurchnotifications\resources\JavaEE8Resource.class
+ze\citychurch\web\RegistrationServlet.class
+ze\citychurch\messaging\NotificationWebSocket.class
+ze\citychurch\store\DataStore.class
+com\mycompany\citychurchnotifications\JAXRSConfiguration.class
+ze\citychurch\web\LoginServlet.class
+ze\citychurch\entities\User.class

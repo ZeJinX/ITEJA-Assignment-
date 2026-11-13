@@ -1,0 +1,125 @@
+/* The main style for my City Church System*/
+body 
+{
+    margin: 0;
+    background-color: #FAF5F0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;/*w3schools font selection */
+    align-items: center;
+    border-top: 12px solid #994500;
+}
+
+/*The section that will create the cross as the symbol */
+.cross-icon
+{
+    font-size:36px;
+    font-weight: bold;
+    color: #B35900;
+    margin-top:40px;
+    margin-bottom: -10px;  
+}
+
+h2
+{
+    font-family: 'Georiga', serif;
+    font-size:28px;
+    margin-bottom:5px;
+    color: #B35900;
+}
+
+h3
+{
+    font-family: 'Georiga',serif;
+    font-size:20px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom:30px;
+    color: #D26900; 
+}
+
+/*The background card that will be my center */
+.card
+{
+    background: #FFFFFF;
+    width:380px;
+    padding:40px;
+    border-radius:16px;
+    border: 1px solid #F0E6DD;
+    box-shadow: 0px 8px 30px rgba(179, 89, 0, 0.08);
+    text-align: center;
+}
+
+/*The section for the inputs */
+input[type="text"],
+input[type="password"],
+textarea,
+select
+{
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #E0D4CC;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-size:14px;
+    color:#555;
+    background-color:#FCF9F6;
+    font-family: inheirt;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus 
+select:focus 
+{
+    outline: none;
+    border-color: #C05600;
+}
+
+/*The button design */
+button,
+input[type="submit"]
+{
+    background-color: #C05600;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(192, 86,0,0.3);
+    transition: background-color 0.3s, transform 0.02s;
+    min-width: 150px;
+}
+
+/*Design for hovering over the button */
+button:hover,
+input[type=submit]:hover 
+{
+    transform: translateY(-2px);
+    background-color: #994500;
+}
+
+/*The link design */
+
+a
+{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #C05600;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+/*The footer design */
+.footer
+{
+    position: absolute;
+    color: #A38C7D;
+    font-size: 12px;
+    bottom: 20px;
+}
+
+
+
+
